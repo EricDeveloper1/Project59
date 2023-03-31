@@ -1,0 +1,137 @@
+body {
+    text-align: center;
+    color: skyblue;
+}
+
+img {
+    width: 800;
+    height: 300;
+    border-radius: 50%;
+
+}
+
+#myname {
+    font-family: 'Courgette', cursive;
+    color: skyblue;
+}
+
+#welcome {
+    padding: 70px;
+    text-align: center;
+}
+
+h1 {
+
+    font-size: 18px;
+}
+
+p {
+    font-size: 18px;
+    color: skyblue;
+
+}
+
+h2 {
+    font-size: 20px;
+    color: skyblue;
+}
+
+.line {
+    height: 2px;
+    background-color: dodgerblue;
+    width: 300px;
+    margin: auto;
+}
+
+.menu {
+    list-style: none;
+    font-family: cursive;
+    float: right;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+}
+
+.menu a {
+    color: black !important;
+}
+
+
+.link {
+    color: crimson;
+    display: inline;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+}
+
+.link:hover {
+    background-color: beige;
+}
+
+
+#picture {
+    width: auto;
+    height: 300px;
+    border-radius: 30%;
+
+    margin: 20px;
+}
+
+.inspiration {
+    background: #373B44;
+
+    background: linear-gradient(#4286f4, #100943, #171f30, #373B44);
+    padding-top: 20px;
+}
+
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+
+
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+li a:hover {
+    background-color: #111;
+    text-decoration: underline;
+    text-decoration-color: #111;
+}
+
+li {
+    border-right: 1px solid #bbb;
+}
+
+
+
+ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+section {
+    background: #4e54c8;
+    background: -webkit-linear-gradient(to right, #8f94fb, #4e54c8);
+    background: linear-gradient(to right, #8f94fb, #4e54c8);
+}
